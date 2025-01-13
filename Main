@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web Integrada</title>
+    <style>
+        /* Estilos CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            background-color: #007acc;
+            color: white;
+            padding: 20px;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        button {
+            background-color: #007acc;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #005f99;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #ddd;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Contenido HTML -->
+    <header>
+        <h1>Bienvenido a mi página integrada</h1>
+        <p>Todo el código está en un solo archivo para mayor simplicidad.</p>
+    </header>
+    <main>
+        <section>
+            <h2>Sobre mí</h2>
+            <p>Me gusta aprender desarrollo web y experimentar con nuevas tecnologías.</p>
+        </section>
+        <button id="miBoton">Haz clic aquí</button>
+    </main>
+    <footer>
+        <p>&copy; 2025 Mi Página Integrada</p>
+    </footer>
+    <script>
+        // Código JavaScript
+        document.getElementById("miBoton").addEventListener("click", function () {
+            alert("¡Gracias por visitar mi página!");
+        });
+    </script>
+</body>
+</html>
